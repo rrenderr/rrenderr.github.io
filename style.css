@@ -293,3 +293,5 @@ a:hover { color: var(--accent); }
   .step { grid-template-columns: 1fr; }
   .step-shot { max-width: 320px; margin: 0 auto; }
 }
+.site-header nav.lang a { margin-left: 10px; color: var(--muted); }
+.site-header nav.lang a[aria-current="page"] { color: var(--accent-dark); text-decoration: underline; }
