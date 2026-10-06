@@ -295,3 +295,7 @@ a:hover { color: var(--accent); }
 }
 .site-header nav.lang a { margin-left: 10px; color: var(--muted); }
 .site-header nav.lang a[aria-current="page"] { color: var(--accent-dark); text-decoration: underline; }
+.qr { margin: 4px 0 8px; display: inline-flex; flex-direction: column; align-items: center; gap: 4px; }
+.qr img { width: 132px; height: 132px; background: #fff; padding: 6px; border-radius: 12px; border: 2px solid var(--card-edge); }
+.qr figcaption { font-size: 0.85rem; color: var(--muted); }
+@media (max-width: 720px) { .qr { display: none; } }
